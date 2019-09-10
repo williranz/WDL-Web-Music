@@ -1,0 +1,154 @@
+/* Element Selector for body */
+body {
+	margin: 0 auto;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	background: #878787 url(images/background-drop-shadow.gif) 50% 0 repeat-y;
+	}
+
+/* ID Selector for wrapper */	
+#wrapper {
+		padding: 10px;
+		background: #ffffff;
+		width: 500px;
+		margin: 0 auto;
+		}
+
+		/* Class Selector for contentFooter */
+		.contentFooter {
+			padding: 4px 0 0 0;
+			font: bold 12px Arial, Helvetica, sans-serif;
+			text-align: center;
+			border-top: 1px solid #878787;
+		}
+		
+		/* Contextual Selector for h1 */
+		h1 {
+			font: bold 18px/10px "Lucida Sans Unicode", "Lucida Sans", Lucida;
+			padding-bottom: 7px;
+			margin-bottom: 7px;
+			border-bottom: 1px solid #cccccc;
+			color: #666666;
+		}
+
+		/* Contextual Selector for p */
+		p {
+			margin-bottom: 15px;
+			line-height: 150%;
+		}	
+		
+		/* Contextual Selector for table */
+		#signup table {
+			background-color: #f9fbfd;
+			color: #000000;
+			width: 500px;
+			border: 1px solid #d7e5f2;
+			border-collapse: collapse;
+			}
+				
+		/* Contextual Selector for td */		
+		#signup td {
+			border: 1px solid #d7e5f2;
+			padding: 6px;
+			}
+
+		/* Class Selector for labelcell */		
+		.labelcell {
+			font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+			color: #3670A7;
+			background-color: transparent;
+			width: 220px;
+			}
+					
+		/* Class Selector for fieldcell */		
+		.fieldcell {
+			background-color: #f2f7fb;
+			color: #000000;
+			text-align: left;
+			margin-right: 0px;
+			padding-right: 0px;
+		}
+
+		/* Class Selector for smallfieldcell */		
+		.smallfieldcell {
+			background-color: #F2F7FB;
+			color: #000000;
+			text-align: left;
+			}
+
+		/* Class Selector for fieldcell input */			
+		.fieldcell input {
+			font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+			background-color: #d7e5f2;
+			color: #102132;
+			border: 1px solid #284279;
+			margin-left: 0px;
+			}
+			
+		/* Class Selector for button */		
+		.button {
+			font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+			background-color: #d7e5f2;
+			color: #102132;
+			margin-left: 12px;
+			margin-top: 3px;
+			margin-bottom: 2px;
+			padding: 4px;
+			}
+
+			
+		/* Contextual Selector for table */
+		table {
+				border: 1px solid #d7e5f2;
+				border-collapse: collapse;
+				background: transparent url(images/background-watermark-alt.gif) 100% 100% no-repeat;
+				color: #000000;
+				width: 500px;
+				margin-bottom: 7px;
+				}
+
+		/* Contextual Selector for caption */			
+		caption {
+				font: bold 14px "Lucida Sans Unicode", "Lucida Sans", Lucida;
+				text-transform: uppercase;
+				padding: 5px;
+				color: #666666;
+				}
+
+		/* Contextual Selector for th */
+		th {
+				background: url(images/table-header-stripe.gif) 0 50% repeat-x;
+				text-align: left;
+				}
+				
+		/* Contextual Selector for th, td */		
+		th, td {
+				border: 1px solid #c9c9c9;
+				font: 12px Arial, Helvetica, sans-serif;
+				background-color: transparent;		
+				padding: 4px;
+				}
+				
+		/* Class selector for odd */		
+		.odd {
+			background: #e7edf6;
+			color: #3670a7;
+			}
+						
+		/* Class selector for even */			
+		.even {
+			color: #000000;
+			}
+
+
+		/* Contextual Selector for tfoot */
+		tfoot {
+				background-color: #dddddd;
+				color: #555555;
+				padding-bottom: 10px;
+				}
+				
+		/* Contextual Selector for tfoot td */
+		tfoot td {
+				font: bold 12px Arial, Helvetica, sans-serif;
+				text-align: center;
+				}
